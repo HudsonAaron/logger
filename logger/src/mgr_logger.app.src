@@ -1,0 +1,7 @@
+{application, mgr_logger, [
+    {description, "logger"},
+    {vsn, "1"},
+    {modules, []},
+    {mod, {mgr_logger_sup, []}},
+    {applications, []}
+]}.
